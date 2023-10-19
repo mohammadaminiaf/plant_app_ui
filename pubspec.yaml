@@ -1,0 +1,45 @@
+name: plant_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_staggered_grid_view: ^0.7.0
+  font_awesome_flutter: ^10.6.0
+  smooth_page_indicator: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+  - family: Poppins
+    fonts:
+      - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+      - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+      - asset: assets/fonts/Poppins/Poppins-Italic.ttf
+      - asset: assets/fonts/Poppins/Poppins-BoldItalic.ttf
+  - family: Roboto
+    fonts:
+      - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+      - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+      - asset: assets/fonts/Roboto/Roboto-Italic.ttf
+      - asset: assets/fonts/Roboto/Roboto-BoldItalic.ttf
+  - family: Montserrat
+    fonts:
+      - asset: assets/fonts/Montserrat/Montserrat-Regular.ttf
+      - asset: assets/fonts/Montserrat/Montserrat-Bold.ttf
+      - asset: assets/fonts/Montserrat/Montserrat-Italic.ttf
